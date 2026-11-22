@@ -1,0 +1,17 @@
+{
+  "name": "SPN Chat Bot",
+  "short_name": "SPN",
+  "description": "SPN Chat Bot - Ask Anything, Learn Anything. For Everyone in Kenya.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#6a11cb",
+  "theme_color": "#6a11cb",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/4712/4712109.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
