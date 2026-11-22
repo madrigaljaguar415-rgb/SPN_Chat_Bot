@@ -9,7 +9,7 @@ app = Flask(__name__, static_folder='.', static_url_path='')
 
 api_key = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 @app.route("/")
 def home():
